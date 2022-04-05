@@ -1,6 +1,6 @@
 # System Identification and Kalman Filter for the closed loop dynamics of a quadrotor
 
-Given and input desired lateral position and a measured output lateral position ($y$, $y_0), I use System Identification theory to estimate the lateral dynamics of a quadrotor. I use a Linear Grey-Box Model.
+Given and input desired lateral position (y_sp) and a measured output lateral position (y), I use System Identification theory to estimate the lateral dynamics of a quadrotor. I use a Linear Grey-Box Model.
 ![image](https://user-images.githubusercontent.com/36279027/161842600-e83f041d-a22a-42c7-96c9-16fb660eb788.png)
 
 I write a discrete time Linear Kalman Filter to estimate the vehicles lateral velocity, fusing MoCap with IMU.
